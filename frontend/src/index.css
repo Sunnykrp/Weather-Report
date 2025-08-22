@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+.card {
+  @apply bg-slate-900 text-white rounded-xl shadow-card border border-slate-800;
+}
+.btn {
+  @apply inline-flex items-center justify-center px-3 py-2 rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium;
+}
+.input {
+  @apply w-full px-3 py-2 rounded-md bg-slate-800 text-white border border-slate-700 outline-none;
+}
+.badge {
+  @apply text-xs bg-slate-800 px-2 py-1 rounded;
+}
