@@ -6,7 +6,7 @@ import compression from 'compression';
 
 const app = express();
 
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://localhost:5173';
+const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://weather-report-frontend.onrender.com/';
 const corsOptions = {
   origin: CLIENT_ORIGIN,
   credentials: true,
