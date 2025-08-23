@@ -5,7 +5,7 @@ setup:
     - Node.js (v18+ recommended)
     - MongoDB Atlas account
     - OpenWeatherMap API key
-
+Live link:https://weather-report-frontend.onrender.com/
   steps:
     frontend:
       description: "Set up the frontend (React + Vite + Tailwind CSS)"
